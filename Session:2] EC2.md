@@ -145,3 +145,21 @@
 ### Delete key pair:
 
       key_pair.delete()
+
+
+
+## EC2 Boto3 Important Functions
+
+| Function                             | Purpose               |
+|--------------------------------------|-----------------------|
+| `run_instances()`                    | Launch EC2 instance   |
+| `describe_instances()`               | View instance details |
+| `terminate_instances()`              | Delete instance       |
+| `stop_instances()`                   | Stop instance         |
+| `start_instances()`                  | Start instance        |
+| `reboot_instances()`                 | Reboot instance       |
+| `create_key_pair()`                  | Create SSH key        |
+| `create_security_group()`            | Create security group |
+| `authorize_security_group_ingress()` | Add inbound rule      |
+| `create_image()`                     | Create AMI            |
+| `describe_images()`                  | List AMIs             |
